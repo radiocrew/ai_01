@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "WDvwSxxRXaBX16yT8x+e7Egu5qvi3sIsP180MvGZ7F8LF34DdqliJJ+UUNbKL8Dex0zSEo5gmcq7WMIN40jaBw==",
+  "success": true,
+  "projectFilePath": "F:\\01_radiocreww\\02_code\\03_cs\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\윤은영\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+  ],
+  "logs": []
+}

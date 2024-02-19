@@ -1,0 +1,9 @@
+F:\01_radiocreww\06_ai\tool\bt_tester\bt_tester\bin\Debug\bt_tester.exe.config
+F:\01_radiocreww\06_ai\tool\bt_tester\bt_tester\bin\Debug\bt_tester.exe
+F:\01_radiocreww\06_ai\tool\bt_tester\bt_tester\bin\Debug\bt_tester.pdb
+F:\01_radiocreww\06_ai\tool\bt_tester\bt_tester\obj\Debug\bt_tester.csproj.AssemblyReference.cache
+F:\01_radiocreww\06_ai\tool\bt_tester\bt_tester\obj\Debug\bt_tester.Properties.Resources.resources
+F:\01_radiocreww\06_ai\tool\bt_tester\bt_tester\obj\Debug\bt_tester.csproj.GenerateResource.cache
+F:\01_radiocreww\06_ai\tool\bt_tester\bt_tester\obj\Debug\bt_tester.csproj.CoreCompileInputs.cache
+F:\01_radiocreww\06_ai\tool\bt_tester\bt_tester\obj\Debug\bt_tester.exe
+F:\01_radiocreww\06_ai\tool\bt_tester\bt_tester\obj\Debug\bt_tester.pdb

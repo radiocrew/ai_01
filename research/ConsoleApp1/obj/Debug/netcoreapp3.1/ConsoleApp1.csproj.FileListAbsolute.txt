@@ -1,0 +1,13 @@
+F:\01_radiocreww\02_code\03_cs\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csprojAssemblyReference.cache
+F:\01_radiocreww\02_code\03_cs\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfoInputs.cache
+F:\01_radiocreww\02_code\03_cs\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfo.cs
+F:\01_radiocreww\02_code\03_cs\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+F:\01_radiocreww\02_code\03_cs\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.exe
+F:\01_radiocreww\02_code\03_cs\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.deps.json
+F:\01_radiocreww\02_code\03_cs\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.json
+F:\01_radiocreww\02_code\03_cs\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.dev.json
+F:\01_radiocreww\02_code\03_cs\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.dll
+F:\01_radiocreww\02_code\03_cs\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.pdb
+F:\01_radiocreww\02_code\03_cs\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
+F:\01_radiocreww\02_code\03_cs\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
+F:\01_radiocreww\02_code\03_cs\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.genruntimeconfig.cache

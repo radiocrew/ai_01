@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{634A1968-1410-4236-A023-324E7F3878CE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>rm_login</RootNamespace>
+    <AssemblyName>rm_login</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Double-J-Design-Ravenna-3d-Tools.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Expedition.Mobile.NetClient">
+      <HintPath>..\..\CommonPackages\ExpeditionMobileNetClient\Expedition.Mobile.NetClient.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net">
+      <HintPath>..\..\CommonPackages\protobuf-net.2.4.0\lib\net40\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.ClientEngine">
+      <HintPath>..\..\CommonPackages\ExpeditionMobileNetClient\SuperSocket.ClientEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.ProtoBase">
+      <HintPath>..\..\CommonPackages\ExpeditionMobileNetClient\SuperSocket.ProtoBase.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\CommonPackages\Unity\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\CommonPackages\Unity\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\Common\ArenaServerPacket.cs">
+      <Link>Common\ArenaServerPacket.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Common\ArenaServerPacketData.cs">
+      <Link>Common\ArenaServerPacketData.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Common\RMCommon.cs">
+      <Link>Common\RMCommon.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Common\RMMath.cs">
+      <Link>Common\RMMath.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Common\RMPacket.cs">
+      <Link>Common\RMPacket.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Common\RMPacketHandlers.cs">
+      <Link>Common\RMPacketHandlers.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Common\RMPacketResult.cs">
+      <Link>Common\RMPacketResult.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Common\RMPtotocols.cs">
+      <Link>Common\RMPtotocols.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Common\RUID.cs">
+      <Link>Common\RUID.cs</Link>
+    </Compile>
+    <Compile Include="Contents\Level\LevelManager.cs" />
+    <Compile Include="Contents\Stat\Stat.cs" />
+    <Compile Include="DrawManager\BaseDraw.cs" />
+    <Compile Include="DrawManager\DProjectile.cs" />
+    <Compile Include="DrawManager\DrawObjectFactory.cs" />
+    <Compile Include="DrawManager\DrawManager.cs" />
+    <Compile Include="DrawManager\DNpc.cs" />
+    <Compile Include="DrawManager\DPlayer.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\Inventory.cs" />
+    <Compile Include="Inventory\Item.cs" />
+    <Compile Include="Inventory\ItemSlot.cs" />
+    <Compile Include="Map\MapManager.cs" />
+    <Compile Include="Network\ArenaServerPacketHandler.cs" />
+    <Compile Include="Network\ArenaServerPacketHandlerDefine.cs" />
+    <Compile Include="Network\ArenaServerSession.cs" />
+    <Compile Include="Network\MatchingServerSession.cs" />
+    <Compile Include="ObjectManager\LerpMove.cs" />
+    <Compile Include="ObjectManager\BaseObject.cs" />
+    <Compile Include="ObjectManager\NpcObject.cs" />
+    <Compile Include="ObjectManager\PlayerObject.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResourceScript\ResData.cs" />
+    <Compile Include="ResourceScript\ResJson.cs" />
+    <Compile Include="ResourceScript\ResourceManager.cs" />
+    <Compile Include="ResourceScript\ResourceManager_Parse.cs" />
+    <Compile Include="TestCommand\TestCommandManager.cs" />
+    <Compile Include="Tool\FormDelegate.cs" />
+    <Compile Include="Tool\FormInitialize.cs" />
+    <Compile Include="Tool\Form_UIEvent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tool\LogDelegate.cs" />
+    <Compile Include="ObjectManager\ObjectManager.cs" />
+    <Compile Include="PlayerManager\Player.cs" />
+    <Compile Include="PlayerManager\PlayerNet.cs" />
+    <Compile Include="Tool\TextProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Tool\TextTester.cs" />
+    <Compile Include="Tool\ToolDefine.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Double-J-Design-Ravenna-3d-Tools.ico" />
+    <Content Include="share_analytics_file_data_online_web_icon-icons.com_59981.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

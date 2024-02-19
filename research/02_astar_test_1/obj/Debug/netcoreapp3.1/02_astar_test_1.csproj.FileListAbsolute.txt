@@ -1,0 +1,13 @@
+F:\01_radiocreww\02_code\03_cs\02_astar_test_1\bin\Debug\netcoreapp3.1\02_astar_test_1.exe
+F:\01_radiocreww\02_code\03_cs\02_astar_test_1\bin\Debug\netcoreapp3.1\02_astar_test_1.deps.json
+F:\01_radiocreww\02_code\03_cs\02_astar_test_1\bin\Debug\netcoreapp3.1\02_astar_test_1.runtimeconfig.json
+F:\01_radiocreww\02_code\03_cs\02_astar_test_1\bin\Debug\netcoreapp3.1\02_astar_test_1.runtimeconfig.dev.json
+F:\01_radiocreww\02_code\03_cs\02_astar_test_1\bin\Debug\netcoreapp3.1\02_astar_test_1.dll
+F:\01_radiocreww\02_code\03_cs\02_astar_test_1\bin\Debug\netcoreapp3.1\02_astar_test_1.pdb
+F:\01_radiocreww\02_code\03_cs\02_astar_test_1\obj\Debug\netcoreapp3.1\02_astar_test_1.csprojAssemblyReference.cache
+F:\01_radiocreww\02_code\03_cs\02_astar_test_1\obj\Debug\netcoreapp3.1\02_astar_test_1.AssemblyInfoInputs.cache
+F:\01_radiocreww\02_code\03_cs\02_astar_test_1\obj\Debug\netcoreapp3.1\02_astar_test_1.AssemblyInfo.cs
+F:\01_radiocreww\02_code\03_cs\02_astar_test_1\obj\Debug\netcoreapp3.1\02_astar_test_1.csproj.CoreCompileInputs.cache
+F:\01_radiocreww\02_code\03_cs\02_astar_test_1\obj\Debug\netcoreapp3.1\02_astar_test_1.dll
+F:\01_radiocreww\02_code\03_cs\02_astar_test_1\obj\Debug\netcoreapp3.1\02_astar_test_1.pdb
+F:\01_radiocreww\02_code\03_cs\02_astar_test_1\obj\Debug\netcoreapp3.1\02_astar_test_1.genruntimeconfig.cache
