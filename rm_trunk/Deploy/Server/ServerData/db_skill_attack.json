@@ -1,0 +1,24 @@
+﻿[
+	{
+		"Tag": "평타",
+		"SkillID": 10001,
+		"SkillType": 1,
+		"PenaltyStatusEffectID": 10,
+		"SkillCastPenaltyTime": 0,
+		"InvokeTimeMS": 150,
+		"CastLookAtTarget": false,
+		"InvokeLookAtTarget": false,
+		"Damage": {
+			"DamageMin": 30,
+			"DamageMax": 50
+		},
+		//↑common
+		"TargetFilterType": 1,
+		"Collision": {
+			"CollisionType": 2,
+			"Arg_0": 1, // radius when CollisionType is 2 (arc)
+			"Arg_1": 60, // internal angle when CollisionType is 2 (arc)
+			"Arg_2": 0
+		}
+	}
+	]

@@ -1,0 +1,39 @@
+[
+  /*
+    public enum ProjectileType
+    {
+        None = 0,
+        Constant = 1,   // 등속 운동
+        Target = 2,     // 고정 타겟
+        Accel = 3,      // 가속 성질
+        Parabola = 4,   // 포물선
+    }
+
+      public enum TargetFilterType : byte
+    {
+        NearSingle = 1,     // 가장 가까운 첫번째 단일
+        Multi = 2,          // 모든
+    }
+
+      public enum CollisionType : byte
+    {
+        None = 0,
+        Circle = 1,
+        Arc = 2,
+        Rect = 3,
+        Line = 4
+    }
+  */
+  {
+    "Tag": "",
+    "ProjectileID": 10001,
+    "ProjectileType": 1,
+    "TargetFilterType": 1,
+    "LifeTime": 1.0,
+    "Speed": 30,// 30m/1s → 108km/h
+    "Collision": {
+      "CollisionType": 1,
+      "Arg_0": 0.5
+    }
+  }
+]

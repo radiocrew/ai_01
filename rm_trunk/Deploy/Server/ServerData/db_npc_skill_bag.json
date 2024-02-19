@@ -1,0 +1,15 @@
+[
+  {
+    "ID": 1,
+    "NpcSkillList": [
+      {
+        "SkillID": 10001,
+        "CoolTime": 1
+      },
+      {
+        "SkillID": 10001,
+        "CoolTime": 2
+      }
+    ]
+  }
+]

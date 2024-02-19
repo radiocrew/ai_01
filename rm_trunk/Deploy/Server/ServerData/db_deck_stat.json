@@ -1,0 +1,46 @@
+[
+  {
+    "ID": 1100,
+    "Stats": {
+    //AttackSpeedRate = 3020,
+      "1": { "StatType": 3020, "Value": 1.0 },
+      "2": { "StatType": 3020, "Value": 2.0 },
+      "3": { "StatType": 3020, "Value": 30.0 },
+      "4": { "StatType": 3020, "Value": 40.0 },
+      "5": { "StatType": 3020, "Value": 50.0 }
+    }
+  },
+  {
+    "ID": 1200,
+    "Stats": {
+      //ExpAddRate = 3050,
+      "1": { "StatType": 3050, "Value": 1.0 },
+      "2": { "StatType": 3050, "Value": 1.5 },
+      "3": { "StatType": 3050, "Value": 2.0 },
+      "4": { "StatType": 3050, "Value": 2.5 },
+      "5": { "StatType": 3050, "Value": 3.0 }
+    }
+  },
+  {
+    "ID": 1300,
+    "Stats": {
+      //VigorRecoveryRate = 3040,
+      "1": { "StatType": 3040, "Value": 1.0 },
+      "2": { "StatType": 3040, "Value": 1.2 },
+      "3": { "StatType": 3040, "Value": 1.4 },
+      "4": { "StatType": 3040, "Value": 1.6 },
+      "5": { "StatType": 3040, "Value": 1.8 }
+    }
+  },
+  {
+    "ID": 1400,
+    "Stats": {
+      //BloodRate = 3030,
+      "1": { "StatType": 3030, "Value": 1.0 },
+      "2": { "StatType": 3030, "Value": 1.2 },
+      "3": { "StatType": 3030, "Value": 1.4 },
+      "4": { "StatType": 3030, "Value": 1.6 },
+      "5": { "StatType": 3030, "Value": 1.8 }
+    }
+  }
+]

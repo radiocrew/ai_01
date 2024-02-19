@@ -1,0 +1,30 @@
+[
+  {
+    "ID": 1,
+    "Name": "old sword",
+    "EquipSlotType": 1,   //-ItemEquipSlotType
+    "GradeType": 1,       //-ItemGradeType
+    "StatID": 1
+  },
+  {
+    "ID": 2,
+    "Name": "old clothes",
+    "EquipSlotType": 2,
+    "GradeType": 1,
+    "StatID": 2
+  },
+  {
+    "ID": 3,
+    "Name": "old shoe",
+    "EquipSlotType": 3,
+    "GradeType": 1,
+    "StatID": 0
+  },
+  {
+    "ID": 30,
+    "Name": "Magic wand",
+    "EquipSlotType": 1,
+    "GradeType": 1,
+    "StatID": 0
+  }
+]

@@ -1,0 +1,90 @@
+[
+  /*
+  DeckType:
+        StatEffect = 1,               // 스탯 버프
+        StatusEffect = 2,           // 상태 효과
+        Skill = 3,                  // 스킬 사용가능
+  */
+
+
+  {
+    //-바람의 공속
+    "DeckID": 1100,
+    "DeckType": 1,
+    "PointMax": 5,
+    "StatID": 1100
+  },
+  {
+    //-구름의 추가경험치
+    "DeckID": 1200,
+    "DeckType": 1,
+    "PointMax": 5,
+    "StatID": 1200
+  },
+  {
+    //-파도의 기력회복
+    "DeckID": 1300,
+    "DeckType": 1,
+    "PointMax": 5,
+    "StatID": 1300
+  },
+  {
+    //-대지의 피빨기
+    "DeckID": 1400,
+    "DeckType": 1,
+    "PointMax": 5,
+    "StatID": 1400
+  }
+
+
+
+
+
+  /*
+
+  {
+    // 암살자의 길
+    "DeckID": 100,
+    "DeckType": 2,
+    "PointMax": 5,
+    "StatusEffectID": 2000
+  },
+  {
+    // 전설의 활
+    "DeckID": 200,
+    "DeckType": 1,
+    "PointMax": 10,
+    "StatID": 200
+  },
+  {
+    // 스킬공학
+    "DeckID": 300,
+    "DeckType": 1,
+    "PointMax": 10,
+    "StatID": 300
+  },
+  {
+    // 흡혈 좀비
+    "DeckID": 400,
+    "DeckType": 1,
+    "PointMax": 5,
+    "StatID": 400
+  },
+  {
+    // 과잉 성장
+    "DeckID": 500,
+    "DeckType": 1,
+    "PointMax": 5,
+    "StatID": 500
+  },
+  {
+    // 시간의 모래
+    "DeckID": 600,
+    "DeckType": 1,
+    "PointMax": 10,
+    "StatID": 600
+  }
+  */
+
+
+]

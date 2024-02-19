@@ -1,0 +1,8 @@
+F:\02_rm_work\11_rm_mirror\Trunk\Server\Bin\x64\Release\Arena\ArenaServer.exe.config
+F:\02_rm_work\11_rm_mirror\Trunk\Server\Bin\x64\Release\Arena\ArenaServer.exe
+F:\02_rm_work\11_rm_mirror\Trunk\Server\Bin\x64\Release\Arena\ArenaServer.pdb
+F:\02_rm_work\11_rm_mirror\Trunk\Server\ArenaServer\obj\x64\Release\ArenaServer.csprojAssemblyReference.cache
+F:\02_rm_work\11_rm_mirror\Trunk\Server\ArenaServer\obj\x64\Release\ArenaServer.csproj.CoreCompileInputs.cache
+F:\02_rm_work\11_rm_mirror\Trunk\Server\ArenaServer\obj\x64\Release\ArenaServer.csproj.CopyComplete
+F:\02_rm_work\11_rm_mirror\Trunk\Server\ArenaServer\obj\x64\Release\ArenaServer.exe
+F:\02_rm_work\11_rm_mirror\Trunk\Server\ArenaServer\obj\x64\Release\ArenaServer.pdb

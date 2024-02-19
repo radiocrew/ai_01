@@ -1,0 +1,36 @@
+﻿[
+  /*
+    public enum SkillType : byte
+    {
+        None = 0,
+        SkillAttack = 1,           // melee attack, (default)
+        SkillProjectile = 2,
+    }
+  */
+  {
+    "SkillID": 40001,
+    "SkillType": 2,
+    "CastLookAtTarget": false,
+    "Damage": {
+      "DamageMin": 100,
+      "DamageMax": 200
+    },
+
+    //↑common
+
+    "ProjectileID": 10001
+  },
+  {
+    "SkillID": 40002,
+    "SkillType": 2,
+    "CastLookAtTarget": false,
+    "Damage": {
+      "DamageMin": 100,
+      "DamageMax": 200
+    },
+
+    //↑common
+
+    "ProjectileID": 20001
+  }
+]

@@ -1,0 +1,23 @@
+[
+  { // 영웅: 도적
+    "ArenaObjectID": 10
+  },
+  { // 영웅: 도적 변신 1
+    "ArenaObjectID": 11
+  },
+  { // 영웅: 전사
+    "ArenaObjectID": 20
+  },
+  { // 영웅: 마법사
+    "ArenaObjectID": 30
+  },
+  { // 영웅: 궁수
+    "ArenaObjectID": 40
+  },
+  { // 경험치 허수아비
+    "ArenaObjectID": 40000
+  },
+  { // 슬라임 level 1
+    "ArenaObjectID": 1001
+  }
+]

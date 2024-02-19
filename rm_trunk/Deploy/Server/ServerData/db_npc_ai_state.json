@@ -1,0 +1,42 @@
+[
+  {
+    "Tag": "Idle",
+    "StateType": 1,
+    "Arg_0": 10,
+    "Arg_1": 20,
+    "Arg_2": 30,
+    "Arg_3": 40
+  },
+  {
+    "Tag": "Wander",
+    "StateType": 2,
+    "Arg_0": 50,
+    "Arg_1": 60,
+    "Arg_2": 70,
+    "Arg_3": 80
+  },
+  {
+    "Tag": "Chase",
+    "StateType": 3,
+    "Arg_0": 90,
+    "Arg_1": 100,
+    "Arg_2": 110,
+    "Arg_3": 120
+  },
+  {
+    "Tag": "Attack",
+    "StateType": 4,
+    "Arg_0": 130,
+    "Arg_1": 140,
+    "Arg_2": 150,
+    "Arg_3": 160
+  },
+  {
+    "Tag": "Chase_Test",
+    "StateType": 5,
+    "Arg_0": 170,
+    "Arg_1": 180,
+    "Arg_2": 190,
+    "Arg_3": 200
+  }
+]

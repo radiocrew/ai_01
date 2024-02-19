@@ -1,0 +1,102 @@
+[
+  {
+    "Tag": "허수아비1",
+    "ArenaObjectID": 40000,
+    "CollisionID": 1,
+    "Health": {
+      "Hp": 99999999,
+      "HpMax": 99999999
+    },
+
+    //↑ common
+
+    "Level": 1,
+    "AiBagID": 3,
+    "SkillBagID": 0,
+    "Sight": 10,
+    "Tendency": 0,
+    "Exp": 420,
+    "MovementSpeed": 0,
+    "AttackSpeed": 0
+  },
+  {
+    "Tag": "허수아비2",
+    "ArenaObjectID": 40001,
+    "CollisionID": 1,
+    "Health": {
+      "Hp": 200,
+      "HpMax": 200
+    },
+
+    //↑ common
+
+    "Level": 1,
+    "AiBagID": 3,
+    "SkillBagID": 0,
+    "Sight": 0,
+    "Tendency": 0,
+    "Exp": 0,
+    "MovementSpeed": 0,
+    "AttackSpeed": 1
+  },
+  {
+    "Tag": "슬라임(비선공)",
+    "ArenaObjectID": 1001,
+    "CollisionID": 1,
+    "Health": {
+      "Hp": 100,
+      "HpMax": 100
+    },
+
+    //↑ common
+
+    "Level": 1,
+    "AiBagID": 2,
+    "SkillBagID": 0,
+    "Sight": 10,
+    "Tendency": 1, // 1 for Passive, 2 for Aggressive
+    "Exp": 0,
+    "MovementSpeed": 10,
+    "AttackSpeed": 1
+  },
+  {
+    "Tag": "슬라임(선공)",
+    "ArenaObjectID": 1002,
+    "CollisionID": 1,
+    "Health": {
+      "Hp": 100,
+      "HpMax": 100
+    },
+
+    //↑ common
+
+    "Level": 1,
+    "AiBagID": 2,
+    "SkillBagID": 1,
+    "Sight": 10,
+    "Tendency": 2, // 1 for Passive, 2 for Aggressive
+    "Exp": 0,
+    "MovementSpeed": 10,
+    "AttackSpeed": 1
+  },
+  {
+    "Tag": "슬라임(테스트)",
+    "ArenaObjectID": 1005,
+    "CollisionID": 1,
+    "Health": {
+      "Hp": 100,
+      "HpMax": 100
+    },
+
+    //↑ common
+
+    "Level": 1,
+    "AiBagID": 2,
+    "SkillBagID": 1,
+    "Sight": 10,
+    "Tendency": 2, // 1 for Passive, 2 for Aggressive
+    "Exp": 0,
+    "MovementSpeed": 0.7,
+    "AttackSpeed": 1
+  }
+]

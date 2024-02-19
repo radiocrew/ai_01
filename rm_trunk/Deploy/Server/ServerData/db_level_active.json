@@ -1,0 +1,37 @@
+﻿[
+  {
+    "Level": 1,
+    "AccumulatedExp": 10,
+    "LossExpOnDie": 0,
+    "ReviveCost": 0,
+    "FreeReviveCount": 99999
+  },
+  {
+    "Level": 2,
+    "AccumulatedExp": 200,
+    "LossExpOnDie": 0,
+    "ReviveCost": 0,
+    "FreeReviveCount": 99999
+  },
+  {
+    "Level": 3,
+    "AccumulatedExp": 500,
+    "LossExpOnDie": 0,
+    "ReviveCost": 0,
+    "FreeReviveCount": 99999
+  },
+  {
+    "Level": 4,
+    "AccumulatedExp": 1400,
+    "LossExpOnDie": 0,
+    "ReviveCost": 0,
+    "FreeReviveCount": 99999
+  },
+  {
+    "Level": 5,
+    "AccumulatedExp": 5200,
+    "LossExpOnDie": 0,
+    "ReviveCost": 0,
+    "FreeReviveCount": 99999
+  }
+]

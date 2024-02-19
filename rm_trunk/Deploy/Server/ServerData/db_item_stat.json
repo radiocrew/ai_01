@@ -1,0 +1,25 @@
+[
+  {
+    "ID": 1,
+    "Stats": [
+      {
+        "StatType": 2200,
+        "Value": 1254
+      },
+      {
+        "StatType": 2201,
+        "Value": 34
+      }
+    ]
+  },
+  {
+    "ID": 2,
+    "Stats": [
+      {
+        "StatType": 3021,
+        "Value": 6.5
+      }
+    ]
+  }
+
+]

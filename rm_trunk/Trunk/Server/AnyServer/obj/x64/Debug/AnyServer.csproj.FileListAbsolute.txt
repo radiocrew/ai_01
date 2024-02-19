@@ -1,0 +1,8 @@
+F:\02_rm_work\11_rm_mirror\Trunk\Server\Bin\x64\Debug\AnyServer\AnyServer.exe.config
+F:\02_rm_work\11_rm_mirror\Trunk\Server\Bin\x64\Debug\AnyServer\AnyServer.exe
+F:\02_rm_work\11_rm_mirror\Trunk\Server\Bin\x64\Debug\AnyServer\AnyServer.pdb
+F:\02_rm_work\11_rm_mirror\Trunk\Server\AnyServer\obj\x64\Debug\AnyServer.csprojAssemblyReference.cache
+F:\02_rm_work\11_rm_mirror\Trunk\Server\AnyServer\obj\x64\Debug\AnyServer.csproj.CoreCompileInputs.cache
+F:\02_rm_work\11_rm_mirror\Trunk\Server\AnyServer\obj\x64\Debug\AnyServer.csproj.CopyComplete
+F:\02_rm_work\11_rm_mirror\Trunk\Server\AnyServer\obj\x64\Debug\AnyServer.exe
+F:\02_rm_work\11_rm_mirror\Trunk\Server\AnyServer\obj\x64\Debug\AnyServer.pdb

@@ -1,0 +1,26 @@
+﻿[
+  {
+    "ArenaObjectID": 11,
+    "CollisionID": 1,
+    "Health": {
+      "Hp": 20,
+      "HpMax": 20
+    },
+
+    //↑ common
+
+    "PlayerClassType": 1
+  },
+  {
+    "ArenaObjectID": 13,
+    "CollisionID": 1,
+    "Health": {
+      "Hp": 130,
+      "HpMax": 130
+    },
+
+    //↑ common
+
+    "PlayerClassType": 3
+  }
+]

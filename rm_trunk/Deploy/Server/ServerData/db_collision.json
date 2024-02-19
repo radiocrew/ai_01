@@ -1,0 +1,27 @@
+[
+  /*
+  CollisionType
+
+      Circle = 1,
+          Arg_0 : radius
+
+      Arc = 2,
+          Arg_0 : radius
+          Arg_1 : internal angle
+
+      Rect = 3,
+          Arg_0 : width
+          Arg_1 : height
+
+      Line = 4,
+          Arg_0 : length
+          Arg_1 : line width
+  */
+  {
+    "ID": 1,
+    "Collision": {
+      "CollisionType": 1,
+      "Arg_0": 0.5
+    }
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "Text": "getitem",
+    "TestCommandType": 50
+  },
+  {
+    "Text": "delitem",
+    "TestCommandType": 51
+  },
+  {
+    "Text": "equipitem",
+    "TestCommandType": 52
+  },
+  {
+    "Text": "createnpc",
+    "TestCommandType": 53
+  },
+  {
+    "Text": "login",
+    "TestCommandType": 54
+  },
+  {
+    "Text": "logout",
+    "TestCommandType": 55
+  },
+  {
+    "Text": "shutdown",
+    "TestCommandType": 56
+  },
+  {
+    "Text": "addexp",
+    "TestCommandType": 57
+  },
+  {
+    "Text": "castskill",
+    "TestCommandType": 58
+  },
+  {
+    "Text": "move",
+    "TestCommandType": 59
+  }
+]

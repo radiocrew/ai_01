@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F57C9F33-49F1-4E4C-B5F0-1F20D348266C}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>AnyServer</RootNamespace>
+    <AssemblyName>AnyServer</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\Bin\x64\Debug\AnyServer\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>..\Bin\x64\Release\AnyServer\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Expedition.Mobile">
+      <HintPath>..\packages\Expedition.Mobile\lib\net45\Expedition.Mobile.dll</HintPath>
+    </Reference>
+    <Reference Include="Expedition.Mobile.DB">
+      <HintPath>..\packages\Expedition.Mobile\lib\net45\Expedition.Mobile.DB.dll</HintPath>
+    </Reference>
+    <Reference Include="Expedition.Mobile.Net">
+      <HintPath>..\packages\Expedition.Mobile\lib\net45\Expedition.Mobile.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="PriorityQueue, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\OptimizedPriorityQueue.5.0.0\lib\net45\PriorityQueue.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net">
+      <HintPath>..\packages\protobuf-net.2.4.0\lib\net40\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.ClientEngine">
+      <HintPath>..\packages\SuperSocket.ClientEngine.0.8.0.8\lib\net45\SuperSocket.ClientEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.Common">
+      <HintPath>..\packages\SuperSocket.1.6.6.1\lib\net45\SuperSocket.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.Facility">
+      <HintPath>..\packages\SuperSocket.1.6.6.1\lib\net45\SuperSocket.Facility.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.ProtoBase">
+      <HintPath>..\packages\SuperSocket.ProtoBase.1.7.0.13\lib\net35-client\SuperSocket.ProtoBase.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.SocketBase">
+      <HintPath>..\packages\SuperSocket.1.6.6.1\lib\net45\SuperSocket.SocketBase.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.SocketEngine">
+      <HintPath>..\packages\SuperSocket.Engine.1.6.6.1\lib\net45\SuperSocket.SocketEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Numerics.Vectors, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\portable-net45+win8+wp8+wpa81\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\CommonPackages\Unity\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\CommonPackages\Unity\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\Common\ArenaServerPacket.cs">
+      <Link>Common\ArenaServerPacket.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Common\ArenaServerPacketData.cs">
+      <Link>Common\ArenaServerPacketData.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Common\RMCommon.cs">
+      <Link>Common\RMCommon.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Common\RMMath.cs">
+      <Link>Common\RMMath.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Common\RMPacket.cs">
+      <Link>Common\RMPacket.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Common\RMPacketHandlers.cs">
+      <Link>Common\RMPacketHandlers.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Common\RMPacketResult.cs">
+      <Link>Common\RMPacketResult.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Common\RMPtotocols.cs">
+      <Link>Common\RMPtotocols.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Common\RUID.cs">
+      <Link>Common\RUID.cs</Link>
+    </Compile>
+    <Compile Include="..\ServerCommon\GameTimer.cs">
+      <Link>ServerCommon\GameTimer.cs</Link>
+    </Compile>
+    <Compile Include="..\ServerCommon\Packet\CommonServerPacket.cs">
+      <Link>ServerCommon\Packet\CommonServerPacket.cs</Link>
+    </Compile>
+    <Compile Include="..\ServerCommon\Packet\CommonServerPacketData.cs">
+      <Link>ServerCommon\Packet\CommonServerPacketData.cs</Link>
+    </Compile>
+    <Compile Include="..\ServerCommon\Packet\CommonServerPtotocols.cs">
+      <Link>ServerCommon\Packet\CommonServerPtotocols.cs</Link>
+    </Compile>
+    <Compile Include="..\ServerCommon\RUID\Ruid.cs">
+      <Link>ServerCommon\RUID\Ruid.cs</Link>
+    </Compile>
+    <Compile Include="..\ServerCommon\ServerCommon.cs">
+      <Link>ServerCommon\ServerCommon.cs</Link>
+    </Compile>
+    <Compile Include="..\ServerCommon\ServerConst.cs">
+      <Link>ServerCommon\ServerConst.cs</Link>
+    </Compile>
+    <Compile Include="..\ServerCommon\TimerDispatcher\AsyncTask.cs">
+      <Link>ServerCommon\TimerDispatcher\AsyncTask.cs</Link>
+    </Compile>
+    <Compile Include="..\ServerCommon\TimerDispatcher\TimerCaller.cs">
+      <Link>ServerCommon\TimerDispatcher\TimerCaller.cs</Link>
+    </Compile>
+    <Compile Include="..\ServerCommon\TimerDispatcher\TimerDispatcher.cs">
+      <Link>ServerCommon\TimerDispatcher\TimerDispatcher.cs</Link>
+    </Compile>
+    <Compile Include="..\ServerCommon\TimerDispatcher\TimerDispatcherTester.cs">
+      <Link>ServerCommon\TimerDispatcher\TimerDispatcherTester.cs</Link>
+    </Compile>
+    <Compile Include="..\ServerCommon\TimerDispatcher\Worker.cs">
+      <Link>ServerCommon\TimerDispatcher\Worker.cs</Link>
+    </Compile>
+    <Compile Include="..\ServerCommon\TimerDispatcher\WorkerPool.cs">
+      <Link>ServerCommon\TimerDispatcher\WorkerPool.cs</Link>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Server\AnyServerMain.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Server\Network\AnyServerPacketHandler.cs" />
+    <Compile Include="Server\Network\AnySession.cs" />
+    <Compile Include="Server\Network\RMServer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

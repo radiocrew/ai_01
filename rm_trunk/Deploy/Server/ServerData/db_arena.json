@@ -1,0 +1,32 @@
+﻿[
+  {
+    "Tag:": "싱글맵 (허수아비)",
+    "ArenaID": 1,
+    "ArenaType": 0,
+    "MapID": 10000
+  },
+  {
+    "Tag:": "싱글맵 (선공 슬라임)",
+    "ArenaID": 2,
+    "ArenaType": 0,
+    "MapID": 10001
+  },
+  {
+    "Tag:": "레이드맵",
+    "ArenaID": 3,
+    "ArenaType": 0,
+    "MapID": 50000
+  },
+  {
+    "Tag:": "레이드맵",
+    "ArenaID": 4,
+    "ArenaType": 0,
+    "MapID": 50001
+  },
+  {
+    "Tag": "테스트맵",
+    "ArenaID": 666,
+    "AreanType": 0,
+    "MapID":  99999
+  }
+]

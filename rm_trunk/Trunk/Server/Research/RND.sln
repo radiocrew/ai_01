@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RND", "RND.csproj", "{B8754CA8-E0CF-4775-9453-ABD9F51EE392}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8754CA8-E0CF-4775-9453-ABD9F51EE392}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{B8754CA8-E0CF-4775-9453-ABD9F51EE392}.Debug|Any CPU.Build.0 = Debug|x64
+		{B8754CA8-E0CF-4775-9453-ABD9F51EE392}.Debug|x64.ActiveCfg = Debug|x64
+		{B8754CA8-E0CF-4775-9453-ABD9F51EE392}.Debug|x64.Build.0 = Debug|x64
+		{B8754CA8-E0CF-4775-9453-ABD9F51EE392}.Release|Any CPU.ActiveCfg = Release|x64
+		{B8754CA8-E0CF-4775-9453-ABD9F51EE392}.Release|Any CPU.Build.0 = Release|x64
+		{B8754CA8-E0CF-4775-9453-ABD9F51EE392}.Release|x64.ActiveCfg = Release|x64
+		{B8754CA8-E0CF-4775-9453-ABD9F51EE392}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF87940B-65D9-4AC7-8D7D-14E030F7ACB9}
+	EndGlobalSection
+EndGlobal

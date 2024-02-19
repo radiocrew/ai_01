@@ -1,0 +1,16 @@
+2021-02-16 16:53:51,269 [INFO ] - ===== Arena Server (Ver:0.0.0.1) =====
+2021-02-16 16:53:52,733 [INFO ] - ServerUID(3001)
+2021-02-16 16:53:58,349 [DEBUG] - Listener (192.168.0.5:30502) was started
+2021-02-16 16:53:58,349 [INFO ] - [Arena Server : OnStarted] Success to Start!
+2021-02-16 16:53:58,350 [INFO ] - The server instance RMServer-25773083 has been started!
+2021-02-16 16:53:58,350 [INFO ] - Initialize Success
+2021-02-16 16:53:58,805 [INFO ] - [OnSessionStarted] session(d2e9013a-b916-400b-97a4-bb975946736d))
+2021-02-16 16:53:58,805 [INFO ] - [OnSessionStarted] session(562b808f-1d0a-46b4-9ce4-bb49bede61bf))
+2021-02-16 16:56:12,536 [INFO ] - [OnSessionClosed] Reason : SocketError, 
+SessionID : d2e9013a-b916-400b-97a4-bb975946736d, 
+Connected : False, 
+RemoteEndPoint : 192.168.0.5:10979
+2021-02-16 16:56:12,537 [INFO ] - [OnSessionClosed] Reason : SocketError, 
+SessionID : 562b808f-1d0a-46b4-9ce4-bb49bede61bf, 
+Connected : False, 
+RemoteEndPoint : 192.168.0.5:10972

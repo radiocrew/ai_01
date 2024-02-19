@@ -1,0 +1,29 @@
+[
+  {
+    "BagID": 1,
+    "FirstStateType": 1,
+    "StateTypeList": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "BagID": 2,
+    "FirstStateType": 2,
+    "StateTypeList": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "BagID": 3,
+    "FirstStateType": 1,
+    "StateTypeList": [
+      1,
+      5
+    ]
+  }
+]

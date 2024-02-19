@@ -1,0 +1,82 @@
+﻿[
+  {
+    "ClassType": 1,//-rogue
+
+    "BaseStat": [
+      {
+        "Level": 1,
+        "StatIDList": [ "10101", "10102" ]
+      },
+      {
+        "Level": 2,
+        "StatIDList": [ "10201", "10202" ]
+      },
+      {
+        "Level": 3,
+        "StatIDList": [ "10301", "10302" ]
+      },
+      {
+        "Level": 4,
+        "StatIDList": [ "10401", "10402" ]
+      },
+      {
+        "Level": 5,
+        "StatIDList": [ "10501", "10502" ]
+      }
+    ]
+  },
+  {
+    "ClassType": 2,//-warrior
+
+    "BaseStat": [
+      {
+        "Level": 1,
+        "StatIDList": [ "0" ]
+      },
+      {
+        "Level": 2,
+        "StatIDList": [ "0" ]
+      }
+    ]
+  },
+  {
+    "ClassType": 3,//-mage
+
+    "BaseStat": [
+      {
+        "Level": 1,
+        "StatIDList": [ "30101", "30102" ]
+      },
+      {
+        "Level": 2,
+        "StatIDList": [ "30201", "30202" ]
+      },
+      {
+        "Level": 3,
+        "StatIDList": [ "30301", "30302" ]
+      },
+      {
+        "Level": 4,
+        "StatIDList": [ "30401", "30402" ]
+      },
+      {
+        "Level": 5,
+        "StatIDList": [ "30501", "30502" ]
+      }
+    ]
+  },
+  {
+    "ClassType": 4, //-Archer
+
+    "BaseStat": [
+      {
+        "Level": 1,
+        "StatIDList": [ "0" ]
+      },
+      {
+        "Level": 2,
+        "StatIDList": [ "0" ]
+      }
+    ]
+  }
+]
